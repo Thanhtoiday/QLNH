@@ -1,0 +1,12 @@
+create database QLNH
+go
+
+use QLNH 
+go
+
+create table USERS
+(
+	ID INT PRIMARY KEY IDENTITY,
+	USERNAME VARCHAR(50),
+	PASSWORD CHAR(32)
+)
